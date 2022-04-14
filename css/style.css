@@ -591,7 +591,7 @@ ul{
 .trabajos-grid{
     width: 100% !important;
     max-width: initial !important;
-    background-color: #4a4a4a;
+    background-color: #273036;
 }
 .trabajos-tips-grid{
     display: grid;
@@ -676,19 +676,20 @@ ul{
 
 .btn-wsp{
     position: fixed;
-    width: 55px;
-    height: 55px;
-    line-height: 55px;
-    bottom: 30px;
-    right: 30px;
+    width: 75px;
+    height: 75px;
+    line-height: 75px;
+    bottom: 55px;
+    right: 55px;
     background: #0df053;
     color: #fff;
     border-radius: 50px;
     text-align: center;
-    font-size: 30px;
+    font-size: 50px;
     box-shadow: 0px 1px 10px rgba(0,0,0,0.3);
-    z-index: 100;
+    z-index: 10;
 }
+ 
 .btn-wsp:hover{
     text-decoration: none;
     color: #0df053;
@@ -696,72 +697,78 @@ ul{
 }
 
  /* footer */
-.footer{
+
+footer{
     width: 100%;
-    padding: 10px 0px;
+    padding: 50px 0px;
     background-image: url(../img/background-footer.svg);
     background-size: cover;
 }
 
-.footer a{
-    text-decoration: none !important;
-}
-.footer-container{
+.caja_footer{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    max-width: 1200px;
     margin: auto;
+    max-width: 1300px;
     margin-top: 100px;
 }
-.footer-box{
+
+.box_footer{
     display: flex;
     flex-direction: column;
     padding: 40px;
 }
-.footer-box .logo-footer h2{
-    width: 180px;
+
+.box_footer .logo_footer{
+    font-size: 35px;
+    font-weight: bold;
 }
-.footer-box .terminos{
+
+.box_footer .terms_footer{
     max-width: 350px;
     margin-top: 20px;
     font-weight: 500;
     color: #7a7a7a;
     font-size: 18px;
 }
-.footer-box h2{
+.box_footer h2{
     margin-bottom: 30px;
     color: #343434;
     font-weight: 700;
 }
-.footer-box a{
+
+.box_footer a{
     margin-top: 10px;
-    color: #7a7a7a;
+    color:  #7a7a7a;
     font-weight: 600;
-    transition: all 0.5s;
 }
-.footer-box a:hover{
+
+.box_footer a:hover{
     opacity: 0.8;
-    transform: scale(1.15);
 }
-.footer-box a .fab{
+
+.box_footer a .fab{
     font-size: 20px;
 }
-.box-copyright{
-    max-width: 1200px;
-    margin: auto;
-    text-align: center;
-    padding: 0 40px;
+
+.box_copyright{
+ max-width: 1200px;
+ margin: auto;
+ text-align: center;
+ padding: 0 40px;
 }
-.box-copyright p{
+.box_copyright p{
     margin-top: 20px;
     color: #7a7a7a;
 }
-.box-copyright hr{
+
+.box_copyright hr{
     border: none;
     height: 1px;
     background-color: #7a7a7a;
 }
+
 
 /* fin footer */
 .body-contacto{
