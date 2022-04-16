@@ -1,6 +1,12 @@
 *{
     margin: 0;
 }
+html{
+    scroll-behavior: smooth;
+}
+section[id]{
+    scroll-margin-top: 135px;
+}
 body{
     font-family: 'Noto Sans', sans-serif;
     padding-top: 170px;
@@ -587,6 +593,9 @@ ul{
 
 /* fin staff */
 /* blog */
+.margin-bottom{
+    margin-bottom: 100px;
+}
 
 .trabajos-grid{
     width: 100% !important;
