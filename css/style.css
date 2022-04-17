@@ -705,6 +705,17 @@ ul{
     background: #fff;
 }
 
+@media (max-width: 950px){
+     .btn-wsp{
+         width: 55px;
+         height: 55px;
+         line-height: 55px;
+         bottom: 35px;
+         right: 35px;
+         font-size: 35px;
+     }
+}
+
  /* footer */
 
 footer{
